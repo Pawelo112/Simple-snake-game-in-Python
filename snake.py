@@ -5,7 +5,7 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
-POSITION = 0
+POSITIONS = ((0, 0), (-20, 0), (-40, 0))
 
 
 class Snake:
@@ -18,8 +18,8 @@ class Snake:
     def create_snake(self):
 
         # Creating first three snake starting parts
-        for i in range(3):
-            self.add_segment(POSITION)
+        for position in POSITIONS:
+            self.add_segment(position)
 
     def add_segment(self, position):
         """Method that creates one snake segment"""
@@ -27,12 +27,12 @@ class Snake:
         snake_part.penup()
         snake_part.shape("square")
         snake_part.color("white")
-        snake_part.goto(position, 0)
+        snake_part.goto(position)
         self.snake_parts.append(snake_part)
 
     def extend(self):
         """Method that adds new segment to the snake, after eating food"""
-        self.add_segment(self.snake_parts[-1].xcor())
+        self.add_segment(self.snake_parts[-1].position())
 
     def up(self):
         if self.head.heading() != DOWN:
