@@ -1,1 +1,1 @@
-# Simple-snake-game---Python
+# Simple snake game - Python
