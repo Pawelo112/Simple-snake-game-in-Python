@@ -22,3 +22,8 @@ The rules of snake:
 + **[scoreboard.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/scoreboard.py)** - This file contains all methods connected to the scoreboard like updating score and displaying **GAME OVER** screen.
   
 + **[snake.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/snake.py)** - This file collects all methods and things connected to the snake object like creating small snake at the start and adding new "segments" of it, which is used after eating one piece of food by snake.
+
+## 📝 License
+
+Copyright © 2024 [Paweł Marcinkowski](https://github.com/Pawelo112).  
+This project is [MIT](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/LICENSE) licensed.
