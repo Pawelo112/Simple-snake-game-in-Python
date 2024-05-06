@@ -16,6 +16,9 @@ The rules of snake:
 
 ## 📁 Files description
 + **[main.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/main.py)** - Main file of the app. Here the objects for food, snake, scoreboard and screen are created and collision is being detected. From the important things you can edit screen size here or change the speed of the game.
+  
 + **[food.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/food.py)** - Here the food object is being represented and its position and color is being randomized. You can add any colors to the colors list as long as Turtle module supports it.
+  
 + **[scoreboard.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/scoreboard.py)** - This file contains all methods connected to the scoreboard like updating score and displaying **GAME OVER** screen.
+  
 + **[snake.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/snake.py)** - This file collects all methods and things connected to the snake object like creating small snake at the start and adding new "segments" of it, which is used after eating one piece of food by snake.
