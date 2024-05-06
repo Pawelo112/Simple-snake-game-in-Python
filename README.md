@@ -5,7 +5,7 @@
 This is a simple snake game that I made in Python using Turtle module, during **100 days of code** Python course.
 
 The rules of snake:
-+ 🎮You control a snake with arrows to move up⬆️, down⬇️, left⬅️ and right➡️.
++ 🎮You control the snake with arrows to move up⬆️, down⬇️, left⬅️ and right➡️.
 + ⛔You cannot move in the opposite direction - for example you cannot move down if head of the snaka is heading up.
 + 🍎You collect the food, which position is randomized - each piece of food gives you one point and makes snake longer each time.
 + 🏆Your main goal is to have the highest score possible (you can see your current score at the top of the screen).
