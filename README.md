@@ -23,6 +23,11 @@ The rules of snake:
   
 + **[snake.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/snake.py)** - This file collects all methods and things connected to the snake object like creating small snake at the start and adding new "segments" of it, which is used after eating one piece of food by snake.
 
+## 🖥️ Usage
+You can find the latest release here: [releases](https://github.com/Pawelo112/Simple-snake-game-in-Python/releases)  
+You can download exe file to play and test the game or whole source code to edit this game on your own 🤓.  
+
+Unfortunately windows defender and other anti-viruses detects **Snake.exe** file as a virus because it was made with pyinstaller and it is known issue with exe files made with it and there isn't much that I can do about it.
 ## 📝 License
 
 Copyright © 2024 [Paweł Marcinkowski](https://github.com/Pawelo112).  
