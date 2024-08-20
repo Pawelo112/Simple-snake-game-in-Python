@@ -20,6 +20,7 @@ class Scoreboard(Turtle):
         self.write(f"Score: {self.score} High Score: {self.high_score}", align="center", font=("Courier", 19, "normal"))
 
     def reset(self):
+        """Updates the scoreboard and high score if needed after dying with snake."""
         if self.score > self.high_score:
             self.high_score = self.score
         self.score = 0

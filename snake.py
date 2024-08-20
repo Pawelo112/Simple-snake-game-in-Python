@@ -16,7 +16,6 @@ class Snake:
         self.head = self.snake_parts[0]
 
     def create_snake(self):
-
         # Creating first three snake starting parts
         for position in POSITIONS:
             self.add_segment(position)
@@ -33,6 +32,16 @@ class Snake:
     def extend(self):
         """Method that adds new segment to the snake, after eating food"""
         self.add_segment(self.snake_parts[-1].position())
+
+    def reset(self):
+        """Creates new snake after death"""
+        # Sending segments over the screen to clear them
+        for segment in self.snake_parts:
+            segment.goto(1000, 1000)
+
+        self.snake_parts.clear()
+        self.create_snake()
+        self.head = self.snake_parts[0]
 
     def up(self):
         if self.head.heading() != DOWN:
