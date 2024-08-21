@@ -1,5 +1,6 @@
 # 🐍 Simple snake game - Python
-![Screenshot from the game.](https://github.com/Pawelo112/Simple-snake-game-in-Python/assets/121107616/73b78187-7075-47e6-a0d7-ac1307deae7e)
+![Screenshot from the game.](https://github.com/user-attachments/assets/fba21029-edfd-41c3-a222-3f8acada89f6)
+
 
 ## 📖 Description and rules
 This is a simple snake game that I made in Python using Turtle module, during **100 days of code** Python course.
