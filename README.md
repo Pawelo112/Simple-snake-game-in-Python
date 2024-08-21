@@ -8,11 +8,12 @@ The rules of snake:
 + 🎮You control the snake with arrows to move up⬆️, down⬇️, left⬅️ and right➡️.
 + ⛔You cannot move in the opposite direction - for example you cannot move down if head of the snake is heading up.
 + 🍎You collect the food, which position is randomized - each piece of food gives you one point and makes snake longer each time.
-+ 🏆Your main goal is to have the highest score possible (you can see your current score at the top of the screen).
++ 🏆Your main goal is to have the highest score possible (you can see your current score and saved high score at the top of the screen).
 + ❎**The game is over** when:
   + Snake collides with the wall.
   + Snake collides with its own body.
-+ 🔁When you lost the game, you have to click on the screen and launch the app one more time to play again.
++ 🔁When you lost, the game immediately restarts, placing new snake at the starting position and resets you score.
++ 🛑To quit the game you have to close the window or stop the application.
 
 ## 📁 Files description
 + **[main.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/main.py)** - Main file of the app. Here the objects for food, snake, scoreboard and screen are created and collision is being detected. From the important things you can edit screen size here or change the speed of the game.
@@ -22,6 +23,8 @@ The rules of snake:
 + **[scoreboard.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/scoreboard.py)** - This file contains all methods connected to the scoreboard like updating score and displaying **GAME OVER** screen.
   
 + **[snake.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/snake.py)** - This file collects all methods and things connected to the snake object like creating small snake at the start and adding new "segments" of it, which is used after eating one piece of food by snake.
+
++ **[data.txt](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/data.txt)** - This text file contains your high score, which is loaded when you start the game. 
 
 ## 🖥️ Usage
 You can find the latest release here: [releases](https://github.com/Pawelo112/Simple-snake-game-in-Python/releases)  
